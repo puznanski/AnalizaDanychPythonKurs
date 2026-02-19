@@ -1,0 +1,18 @@
+[project]
+name = "analiza-danych-python-kurs"
+version = "0.1.0"
+description = "Materialy do kursu Analiza Danych w Pythonie"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.1",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv]
+package = false
