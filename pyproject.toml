@@ -9,9 +9,11 @@ dependencies = [
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
     "numpy>=2.4.2",
+    "nycflights13>=0.0.3",
     "openpyxl>=3.1.5",
     "pandas>=3.0.1",
     "seaborn>=0.13.2",
+    "setuptools>=68,<81",
 ]
 
 [tool.uv]
